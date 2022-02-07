@@ -1,0 +1,75 @@
+/*  My Custom Styles  */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+ul, ol {
+	list-style-type: none;
+}
+/*  custom properties
+-----------------------------------------------------------------------  */
+:root {
+	--ff-primary: "Raleway", sans-serif;
+	--ff-secondary: "comic sans ms", sans-serif;
+/* - Family: [Outfit](https://fonts.google.com/specimen/Outfit) */
+
+	--fs-body: 18px;
+
+	--fw-reg: 300;
+  --fw-med: 400;
+	--fw-bold: 600;
+
+	--clr-light: #fff;
+	--clr-dark: #303030;
+	--clr-accent: #16e0bd;
+	--clr-background: #DBCA60;
+	--clr-dropdowns: #ffe699;
+	--clr-link: #8B4513;
+	--clr-linkvisited: #004d00;
+
+	--clr-red: #e60000;
+	--clr-green: green;
+	--clr-blue: blue;
+	--clr-black: black;
+	--clr-cocobrown: #7E3817;
+	--clr-darkbrown: #432109;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body {
+/* 	height: 100vh; */
+	min-height: 100vh;
+  font-size: var(--fs-body);
+}
+
+/* 
+- Mobile: 375px
+- Desktop: 1440px
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+ */
