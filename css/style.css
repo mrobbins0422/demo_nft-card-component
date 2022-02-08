@@ -16,9 +16,8 @@ ul, ol {
 /*  custom properties
 -----------------------------------------------------------------------  */
 :root {
-	--ff-primary: "Raleway", sans-serif;
-	--ff-secondary: "comic sans ms", sans-serif;
 /* - Family: [Outfit](https://fonts.google.com/specimen/Outfit) */
+	--ff-primary: 'Outfit', sans-serif;
 
 	--fs-body: 18px;
 
@@ -26,20 +25,14 @@ ul, ol {
   --fw-med: 400;
 	--fw-bold: 600;
 
-	--clr-light: #fff;
-	--clr-dark: #303030;
-	--clr-accent: #16e0bd;
-	--clr-background: #DBCA60;
-	--clr-dropdowns: #ffe699;
-	--clr-link: #8B4513;
-	--clr-linkvisited: #004d00;
-
-	--clr-red: #e60000;
-	--clr-green: green;
-	--clr-blue: blue;
-	--clr-black: black;
-	--clr-cocobrown: #7E3817;
-	--clr-darkbrown: #432109;
+/*	### Primary */
+	--clr-cyan: hsl(178, 100%, 50%);
+	--clr-soft-blue: hsl(215, 51%, 70%);
+/*	### Neutral */
+	--clr-blue-main-bg: hsl(217, 54%, 11%);
+	--clr-blue-card-bg: hsl(216, 50%, 16%);
+	--clr-blue-line: hsl(215, 32%, 27%);
+	--clr-white: hsl(0, 0%, 100%);
 }
 
 html {
@@ -52,25 +45,56 @@ body {
 /* 	height: 100vh; */
 	min-height: 100vh;
 	max-width: 100%;
+	color: var(--clr-white);
   font-size: var(--fs-body);
+	font-weight: var(--fw-reg);
+	font-family: var(--ff-primary);
+}
+main {
+	background-color: var(--clr-blue-main-bg);
+	min-height: 100vh;
+	max-width: 1440px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+}
+.card {
+	max-width: 375px;
+	background-color: var(--clr-blue-card-bg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+	padding: 1.5rem;
+	margin: 0 auto;
+}
+img[data-icon-eye] {
+	display: none;
+	opacity: 0;
+}
+.card h1 {
+	color: var(--clr-white);
+}
+.card p {
+	color: var(--clr-soft-blue);
+}
+div.ticker {
+	max-height: 18px;
+	margin-bottom: 1rem;;
+}
+.card hr {
+	color: var(--clr-blue-line);
+}
+
+.attribution {
+	font-size: 11px; text-align: center; 
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
 }
 
 /* 
 - Mobile: 375px
 - Desktop: 1440px
-
-### Primary
-
-- Soft blue: hsl(215, 51%, 70%)
-- Cyan: hsl(178, 100%, 50%)
-
-### Neutral
-
-- Very dark blue (main BG): hsl(217, 54%, 11%)
-- Very dark blue (card BG): hsl(216, 50%, 16%)
-- Very dark blue (line): hsl(215, 32%, 27%)
-- White: hsl(0, 0%, 100%)
-
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
- */
+*/
