@@ -20,6 +20,7 @@ ul, ol {
 	--ff-primary: 'Outfit', sans-serif;
 
 	--fs-body: 18px;
+	--fs-h1: 22px;
 
 	--fw-reg: 300;
   --fw-med: 400;
@@ -34,22 +35,51 @@ ul, ol {
 	--clr-blue-line: hsl(215, 32%, 27%);
 	--clr-white: hsl(0, 0%, 100%);
 }
-
 html {
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
 }
-
 body {
-/* 	height: 100vh; */
 	min-height: 100vh;
 	max-width: 100%;
+	line-height: 1.6;
 	color: var(--clr-white);
   font-size: var(--fs-body);
 	font-weight: var(--fw-reg);
 	font-family: var(--ff-primary);
 }
+/* topography
+---------------------------------------------------------------------------- */
+h1 {
+	font-size: var(--fs-h1);
+	font-weight: var(--fw-bold);
+	color: var(--clr-white);
+}
+p {
+	color: var(--clr-soft-blue);
+}
+/* link styling
+---------------------------------------------------------------------------- */
+a:link {
+	color: var(--clr-cyan);
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: var(--fw-bold);
+}
+a:visited {
+	text-decoration: none;
+}
+a:focus {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
 main {
 	background-color: var(--clr-blue-main-bg);
 	min-height: 100vh;
@@ -65,33 +95,77 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	gap: 1rem;
-	padding: 1.5rem;
+	gap: .75rem;
+	padding: 1.75rem;
+	border-radius: 1rem;
 	margin: 0 auto;
+}
+img[data-main-image] {
+	border-radius: 6px;
 }
 img[data-icon-eye] {
 	display: none;
 	opacity: 0;
 }
-.card h1 {
-	color: var(--clr-white);
+h1 {
+	padding-top: 0.55rem;
 }
-.card p {
-	color: var(--clr-soft-blue);
-}
+
 div.ticker {
-	max-height: 18px;
-	margin-bottom: 1rem;;
+	display: flex;
+	flex-direction: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	padding-top: 0.5rem;
+	margin-bottom: 0.4rem;;
+}
+.ticker img {
+	display: inline-block;
+}
+.ticker p a img {
+	height: 20px;
+}
+
+img[data-icon-ethereum] {
+	vertical-align: -.4rem;
+	margin-right: 0.5rem;
+}
+img[data-icon-clock] {
+	vertical-align: -.1rem;
+	margin-right: 0.4rem;
 }
 .card hr {
 	color: var(--clr-blue-line);
 }
 
+.credits {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	column-gap: 1rem;
+	padding-top: 0.3rem;
+}
+.credits p {
+	font-size: 16px;
+}
+img[data-avatar] {
+	height: 35px;
+	border: 1px solid white;
+	border-radius: 100%;
+}
+span.author {
+	font-weight: var(--fw-med);
+	color: var(--clr-white);
+}
 .attribution {
 	font-size: 11px; text-align: center; 
 }
 .attribution a { 
 	color: hsl(228, 45%, 44%); 
+}
+.hide {
+	display: none;
 }
 
 /* 
