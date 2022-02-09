@@ -127,7 +127,7 @@ img[data-icon-eye] {
 
 div.ticker {
 	display: flex;
-	flex-direction: row nowrap;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
