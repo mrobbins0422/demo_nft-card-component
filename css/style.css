@@ -19,8 +19,7 @@ ul, ol {
 /* - Family: [Outfit](https://fonts.google.com/specimen/Outfit) */
 	--ff-primary: 'Outfit', sans-serif;
 
-	--fs-body: 18px;
-	--fs-h1: 22px;
+	--fs-body: 16px;
 
 	--fw-reg: 300;
   --fw-med: 400;
@@ -48,6 +47,7 @@ body {
   font-size: var(--fs-body);
 	font-weight: var(--fw-reg);
 	font-family: var(--ff-primary);
+	padding: 10vh 0 10vh 0;
 }
 /* topography
 ---------------------------------------------------------------------------- */
@@ -62,7 +62,7 @@ p {
 /* link styling
 ---------------------------------------------------------------------------- */
 a:link {
-	color: var(--clr-cyan);
+	color: var(--clr-white);
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: var(--fw-bold);
@@ -74,12 +74,13 @@ a:focus {
 	text-decoration: none;
 }
 a:hover {
-	text-decoration: underline;
+	color: var(--clr-cyan);
 }
 a:active {
 	text-decoration: none;
 }
-
+/* 
+---------------------------------------------------------------------------- */
 main {
 	background-color: var(--clr-blue-main-bg);
 	min-height: 100vh;
@@ -95,30 +96,43 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	gap: .75rem;
+	gap: 1rem;
 	padding: 1.75rem;
 	border-radius: 1rem;
 	margin: 0 auto;
 }
+.card-image {
+	position: relative;
+	margin-bottom: 0.6rem;
+}
 img[data-main-image] {
 	border-radius: 6px;
+	opacity: 1;
 }
 img[data-icon-eye] {
+ 	width: 48px;
 	display: none;
-	opacity: 0;
+	opacity: 1;
 }
-h1 {
-	padding-top: 0.55rem;
+.card-content {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	gap: 1.2rem;
+}
+.card-content a:link {
+	font-size: 19px;
+	font-weight: var(--fw-bold);
 }
 
 div.ticker {
 	display: flex;
-	flex-direction: row nowrap;
+	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-	padding-top: 0.5rem;
-	margin-bottom: 0.4rem;;
+/* 	padding-top: 0.5rem;
+	margin-bottom: 0.4rem; */
 }
 .ticker img {
 	display: inline-block;
@@ -126,9 +140,12 @@ div.ticker {
 .ticker p a img {
 	height: 20px;
 }
+.ticker p:first-child {
+	color: var(--clr-cyan);
+}
 
 img[data-icon-ethereum] {
-	vertical-align: -.4rem;
+	vertical-align: -.3rem;
 	margin-right: 0.5rem;
 }
 img[data-icon-clock] {
@@ -139,7 +156,7 @@ img[data-icon-clock] {
 	color: var(--clr-blue-line);
 }
 
-.credits {
+.card-credits {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -155,7 +172,7 @@ img[data-avatar] {
 	border-radius: 100%;
 }
 span.author {
-	font-weight: var(--fw-med);
+	font-weight: var(--fw-reg);
 	color: var(--clr-white);
 }
 .attribution {
