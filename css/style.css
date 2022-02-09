@@ -101,19 +101,38 @@ main {
 	border-radius: 1rem;
 	margin: 0 auto;
 }
+/* main image
+---------------------------------------------------------------------------- */
 .card-image {
 	position: relative;
+	background-color: var(--clr-cyan);
+	border-radius: 6px;
 	margin-bottom: 0.6rem;
 }
 img[data-main-image] {
-	border-radius: 6px;
 	opacity: 1;
+	transition: .5s ease;
+  backface-visibility: hidden;
+	border-radius: 6px;
 }
 img[data-icon-eye] {
- 	width: 48px;
-	display: none;
-	opacity: 1;
+	transition: .5s ease;
+	opacity: 0;
+	width: 48px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 }
+.card-image:hover img[data-main-image] {
+	opacity: 0.5;
+}
+.card-image:hover img[data-icon-eye] {
+	opacity: .9;
+}
+/* 
+---------------------------------------------------------------------------- */
 .card-content {
 	display: flex;
 	flex-flow: column nowrap;
