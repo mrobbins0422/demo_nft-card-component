@@ -22,7 +22,7 @@ ul, ol {
 	--fs-body: 16px;
 
 	--fw-reg: 300;
-  --fw-med: 400;
+	--fw-med: 400;
 	--fw-bold: 600;
 
 /*	### Primary */
@@ -47,7 +47,6 @@ body {
   font-size: var(--fs-body);
 	font-weight: var(--fw-reg);
 	font-family: var(--ff-primary);
-	padding: 10vh 0 10vh 0;
 }
 /* topography
 ---------------------------------------------------------------------------- */
@@ -88,6 +87,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding: 5vh 1rem 5vh 1rem;
 	margin: auto;
 }
 .card {
@@ -150,8 +150,6 @@ div.ticker {
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-/* 	padding-top: 0.5rem;
-	margin-bottom: 0.4rem; */
 }
 .ticker img {
 	display: inline-block;
