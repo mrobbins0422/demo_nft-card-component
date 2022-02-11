@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/screenshot.jpg)
+![](/images/screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://mrobbins0422.github.io/project01/)
+- Solution URL: https://your-solution-url.com
+- Live Site URL: https://mrobbins0422.github.io/project01/
 
 ## My process
 
