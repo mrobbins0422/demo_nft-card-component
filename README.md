@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://your-solution-url.com
+- Solution URL: https://github/mrobbins0422/project01
 - Live Site URL: https://mrobbins0422.github.io/project01/
 
 ## My process
@@ -54,7 +54,7 @@ I can't wait to begin the next challenge.
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com/howto/howto_css_image_overlay.asp) - This helped me to create the hover background and to center an icon on top of an image..
+- [How TO - Image Hover Overlay] (https://www.w3schools.com/howto/howto_css_image_overlay.asp) - This helped me to create the hover background and to center an icon on top of an image..
 
 ## Author
 
