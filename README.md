@@ -46,7 +46,7 @@ Users should be able to:
 ### What I learned
 
 Since this was my first project using GIT and GitHub, I learned a lot about workflow using 
-these systems.
+these systems. 
 
 ### Continued development
 
