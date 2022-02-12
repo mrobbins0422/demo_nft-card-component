@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://mrobbins0422.github.io/project01/screenshot.png)
+![Screenshot](https://mrobbins0422.github.io/project01/assets/images/screenshot.png)
 
 ### Links
 
