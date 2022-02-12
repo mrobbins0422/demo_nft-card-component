@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](.screenshot.png)
+![Screenshot](.Screenshot.png)
 
 ![Screenshot](images/Screenshot_2022-0211.png)
 
