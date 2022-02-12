@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](images/screenshot.jpg)
+![Screenshot](images/screenshot_2022-0211.png)
 
 ### Links
 
-- Solution URL: https://github/mrobbins0422/project01
+- Solution URL: https://github.com/mrobbins0422/project01
 - Live Site URL: https://mrobbins0422.github.io/project01/
 
 ## My process
