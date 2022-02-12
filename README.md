@@ -65,6 +65,6 @@ I am looking forward to the next challenge.
 
 ## Acknowledgments
 
-Kudos and heart felt thanks to Lorentz Bloom for helping me get my GitHub pages set up.
+Kudos and heart felt thanks to Lorentz Bloom and Prince for helping me get my GitHub pages set up.
 
 
