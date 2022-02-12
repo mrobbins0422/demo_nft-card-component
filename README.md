@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](images/screenshot_2022-0211.png)
+![Screenshot](screenshot.png)
 
 ### Links
 
