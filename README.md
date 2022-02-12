@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/screenshot.jpg)
+![]images/screenshot.jpg
 
 ### Links
 
@@ -50,7 +50,7 @@ these systems.
 
 ### Continued development
 
-I can't wait to begin the next challenge.
+I am looking forward to the next challenge.
 
 ### Useful resources
 
